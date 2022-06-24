@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+body {
+  background-image: url('img\\main_slide3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+.wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.login {
+  width: 18%;
+  height: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  color: rgb(38, 69, 248);
+  font-size: 2em;
+  margin-top: -15rem;
+}
+
+.login_id {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.login h2 {
+  margin-top: -4rem;
+  margin-right: 2rem;
+}
+
+.login {
+  background-image: url('img\\icon.png');
+  background-repeat: no-repeat;
+  background-size: 9.5rem;
+  background-position: top;
+}
+
+.login_id input {
+  width: 120%;
+  height: 50px;
+  border-radius: 30px;
+  margin-top: 10px;
+  padding: 0px 20px;
+  border: 1px solid lightgray;
+  outline: none;
+}
+
+.login_pw {
+  margin-top: 20px;
+  width: 96%;
+}
+
+.login_pw input {
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  margin-top: 10px;
+  padding: 0px 20px;
+  border: 1px solid lightgray;
+  outline: none;
+}
+
+.login_etc {
+  padding: 10px;
+  width: 80%;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.submit {
+  margin-top: 10rem;
+  width: 80%;
+}
+
+.submit input {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  outline: none;
+  border-radius: 40px;
+  background: linear-gradient(to left, rgb(38, 69, 248), rgb(108, 153, 250));
+  color: white;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+}
+
+.signup {
+  margin-left: 3.5rem;
+  width: 100px;
+  margin-top: 12rem;
+  position: absolute;
+  color: antiquewhite;
+}
